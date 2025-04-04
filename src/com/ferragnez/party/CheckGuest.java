@@ -13,6 +13,8 @@ public class CheckGuest {
         System.out.println("Qual e' il tuo nome?");
 
         String name = sc.nextLine().toLowerCase().trim();
+
+        sc.close();
         
         // for (int i = 0; i < guests.length; i++) {
             
